@@ -18,6 +18,8 @@ public class Alerts {
 		System.out.println("GitTesting");
 		System.out.println("GitTesting");
 		
+		System.out.println("GitYTesting");
+		
 		driver.switchTo().alert().accept();
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());

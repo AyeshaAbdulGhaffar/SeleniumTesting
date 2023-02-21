@@ -14,6 +14,10 @@ public class Alerts {
 		driver.findElement(By.name("enter-name")).sendKeys(text);
 		driver.findElement(By.id("alertbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
+		
+		System.out.println("GitTesting");
+		System.out.println("GitTesting");
+		
 		driver.switchTo().alert().accept();
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());

@@ -23,6 +23,7 @@ public class Alerts {
 		System.out.println("Git X add on develop banch");
 		
 		System.out.println("Git y add on develop banch");
+		System.out.println("Git y add on master banch afetr merge");
 		
 		driver.switchTo().alert().accept();
 		driver.findElement(By.id("confirmbtn")).click();

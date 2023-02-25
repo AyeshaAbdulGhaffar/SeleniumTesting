@@ -20,6 +20,8 @@ public class Alerts {
 		
 		System.out.println("GitYTesting");
 		
+		System.out.println("Git X add on develop banch");
+		
 		driver.switchTo().alert().accept();
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
